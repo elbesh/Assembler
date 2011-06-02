@@ -10,7 +10,6 @@
 .globl _start
 
 _start:
-  
 
   movl $5,%eax #abrir arquivo
   movl $filename,%ebx
