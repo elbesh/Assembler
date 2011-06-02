@@ -17,10 +17,8 @@ _start:
   movl $0644,%edx
   int $0x80
   
-
   movl $header,%ebx
   
-
   movl $0x7f,0(%ebx) #magic number
   movl $0x45,1(%ebx) #E
   movl $0x4c,2(%ebx) #L
