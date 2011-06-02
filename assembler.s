@@ -64,7 +64,6 @@ _start:
   test %eax, %eax
   js badfile
   
-  
   movl $4, %eax
   movl filehandle, %ebx
   movl $hprogram, %ecx
